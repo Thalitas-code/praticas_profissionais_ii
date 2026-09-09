@@ -13,7 +13,10 @@ int main(){
     char modelo[50];
     char cor[50];
     int ano_carro;
-    
+
+    int opcao;
+    float valor_carro;
+    float total_12_parcelas;
     
     //cadastro do cliente
     printf("Digite seu nome: \n");
@@ -59,11 +62,23 @@ int main(){
 
 
 
-
-
-
     //DECISÃO SIMPLES (IF/else)
-    
+
+    printf("1 - a vista \n");
+    printf("2 - parcelado \n");
+    scanf("%d", &opcao);
+
+    if(opcao == 1){
+
+    }else{
+        printf("Quantas parcelas você quer");
+        printf("1 = 12 parcelas");
+
+        switch(opcao2)
+            case 1:
+            printf("12 parcelas ");
+            total_12_parcelas = valor_carro / 12
+                }
     
     
     
